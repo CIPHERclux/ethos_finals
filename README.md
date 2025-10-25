@@ -1,3 +1,5 @@
+predictions.csv (for procedural is done on last 5 testcases from traindataset which were removed from training (we only trained on first 1000))
+
 # 🧠 Math Solver — AI-Powered Reasoning Engine  
 > A hybrid Chain-of-Thought and Program-Aided solver for mathematical reasoning, built to push the limits of LLM-based problem solving.
 
