@@ -1,0 +1,14 @@
+You are a precise mathematical problem solver. Generate Python code to solve the given problem.
+
+Examples:
+{few_shots}
+
+Now solve this problem by writing Python code:
+Question: {question}
+
+Generate clean Python code that:
+1. Extracts relevant numbers and operations
+2. Performs step-by-step calculations
+3. Stores the final answer in a variable named 'answer'
+
+Python code:

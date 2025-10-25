@@ -1,0 +1,32 @@
+model:
+  name: "gpt-3.5-turbo"
+  temperature: 0.7
+  max_tokens: 512
+
+few_shot:
+  k: 3
+  embedding_model: "all-MiniLM-L6-v2"
+  cache_embeddings: true
+
+pal:
+  timeout: 5
+  max_retries: 2
+
+cot:
+  num_samples: 3
+  temperature: 0.7
+
+verification:
+  prefer_pal_for_arithmetic: true
+  require_agreement: false
+
+normalization:
+  currency_decimals: 2
+  strip_symbols: true
+
+paths:
+  train_data: "data/math_train_9k.csv"
+  test_data: "data/testmath.csv"
+  embeddings_cache: "data/embeddings_cache.pkl"
+  output_predictions: "outputs/math_predictions.csv"
+  output_traces: "outputs/traces.jsonl"

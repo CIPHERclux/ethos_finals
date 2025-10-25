@@ -1,0 +1,7 @@
+Solve the following word problem by reasoning through it step by step. Show your work clearly.
+
+{few_shots}
+
+Question: {question}
+
+Let's solve this step by step:

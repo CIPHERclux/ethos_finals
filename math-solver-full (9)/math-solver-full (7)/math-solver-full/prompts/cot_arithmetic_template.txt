@@ -1,0 +1,9 @@
+You are a step-by-step mathematical problem solver. Solve problems by reasoning through them.
+
+Examples:
+{few_shots}
+
+Now solve this problem step by step:
+Question: {question}
+
+Solution (end with "#### <final_answer>"):

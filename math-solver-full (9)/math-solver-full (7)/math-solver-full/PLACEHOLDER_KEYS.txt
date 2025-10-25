@@ -1,0 +1,6 @@
+API key placeholders are present in:
+- src/pal_solver.py
+- src/cot_solver.py
+
+Replace 'YOUR_GROQ_API_KEY_HERE' with your real Groq API key.
+Example Groq API call is included in comments for reference.
