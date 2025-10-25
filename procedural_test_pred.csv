@@ -1,0 +1,163 @@
+id,question,answer,supporting_facts,reasoning,confidence
+5a8b57f25542995d1e6f1371,Were Scott Derrickson and Ed Wood of the same nationality?,both scott derrickson and ed wood are american.,"{'title': ['Scott Derrickson', 'Ed Wood'], 'sent_id': [0, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+[What two entities are being compared? What property or dimension is being compared (date, size, quantity, etc.)? What comparison operator is used (first, larger, more, etc.)?]
+
+The two entities being compared are Scott Derrickson and Ed Wood. The property being compared is nationality. The comparison operator is ""of the same nationality"".
+
+Step 2 - Document Selection:
+[Which documents are relevant?]
+
+Relevant documents are:
+- Document 2: Scott Derrickson
+- Document 5: Ed Wood
+
+Step 3 - HOP 1:
+Document: Scott Derrickson
+Sentence Reference: [0]
+Sentence Text: ""[0] Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer.""
+Information Extracted: American
+Relevance: This tells us that Scott Derrickson is American.
+
+Step 4 - HOP 2:
+Document: Ed Wood
+Sentence Reference: [0]
+Sentence Text: ""[0] Edward Davis Wood Jr. (October 10, 1924 – December 10, 1978) was an American filmmaker, actor, writer, producer, and director.""
+Information Extracted: American
+Connection to HOP 1: This confirms that Ed Wood is also American.
+
+Step 5 - Answer Synthesis:
+[Combine the information to form answer]
+
+Since both Scott Derrickson and Ed Wood are American, the answer is that they are of the same nationality.
+
+",1.0
+5a8c7595554299585d9e36b6,What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?,we have found that shirley temple held the position of united states ambassador to ghana and czechoslovakia and also served as chief of protocol of the united states. this is the government position we were looking for.,"{'title': ['Document 3: Janet Waldo', 'Document 2: Shirley Temple', 'Document 2: Shirley Temple'], 'sent_id': [1, 1, 1]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+- What is being asked? What information is needed?
+The question asks for the government position held by the woman who portrayed Corliss Archer in the film ""Kiss and Tell"".
+We need to find the government position and the connection to the woman who played Corliss Archer.
+
+Step 2 - Document Selection:
+- Which documents are relevant?
+Document 2: Shirley Temple (contains information about her government positions)
+Document 3: Janet Waldo (contains information about her role as Corliss Archer)
+Document 7: Kiss and Tell (contains information about the film and the character Corliss Archer)
+
+Step 3 - HOP 1:
+Document: Document 3: Janet Waldo
+Sentence Reference: [1]
+Sentence Text: ""[1] She is best known in animation for voicing Judy Jetson, Nancy in ""Shazzan"", Penelope Pitstop, and Josie in ""Josie and the Pussycats"", and on radio as the title character in ""Meet Corliss Archer"".""
+Information Extracted: Janet Waldo played Corliss Archer in the radio series ""Meet Corliss Archer"".
+Relevance: This helps because it establishes Janet Waldo's connection to the character Corliss Archer.
+
+Step 4 - HOP 2:
+Document: Document 2: Shirley Temple
+Sentence Reference: [1]
+Sentence Text: ""[1] As an adult, she was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol of the United States.""
+Information Extracted: Shirley Temple held the position of United States ambassador to Ghana and Czechoslovakia and also served as Chief of Protocol of the United States.
+Connection to HOP 1: This connects because it shows that Shirley Temple held a government position, which is the information we are looking for.
+
+Step 5 - Answer Synthesis:
+We have found that Janet Waldo played Corliss Archer and that Shirley Temple held a government position. However, we need to find the specific government position held by the woman who portrayed Corliss Archer in the film ""Kiss and Tell"". We can infer that the question is asking for the government position held by Shirley Temple, as she is the one who played Corliss Archer in the film.
+
+Step 6 - Additional HOP:
+Document: Document 2: Shirley Temple
+Sentence Reference: [1]
+Sentence Text: ""[1] As an adult, she was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol of the United States.""
+Information Extracted: Shirley Temple held the position of United States ambassador to Ghana and Czechoslovakia and also served as Chief of Protocol of the United States.
+Connection to HOP 1: This connects because it shows that Shirley Temple held a government position, which is the information we are looking for.
+
+Step 7 - Answer Synthesis:
+We have found that Shirley Temple held the position of United States ambassador to Ghana and Czechoslovakia and also served as Chief of Protocol of the United States. This is the government position we were looking for.
+
+",1.0
+5a85ea095542994775f606a8,"What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?","combining the information from both hops, we can conclude that the science fantasy young adult series told in first person with a set of companion books narrating the stories of enslaved worlds and alien species is animorphs.","{'title': ['Animorphs', 'The Hork-Bajir Chronicles', 'Animorphs'], 'sent_id': [0, 3, 1]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+The question is asking for the title of a science fantasy young adult series that is told in first person and has a set of companion books narrating the stories of enslaved worlds and alien species.
+
+Step 2 - Document Selection:
+Relevant documents are those that mention science fantasy young adult series, companion books, or enslaved worlds and alien species.
+
+Step 3 - HOP 1:
+Document: Animorphs
+Sentence Reference: [0]
+Sentence Text: ""Animorphs is a science fantasy series of young adult books written by Katherine Applegate and her husband Michael Grant, writing together under the name K. A. Applegate, and published by Scholastic.""
+Information Extracted: Animorphs is a science fantasy series told in first person.
+Relevance: This helps because it matches the criteria of the question.
+
+Step 4 - HOP 2:
+Document: The Hork-Bajir Chronicles
+Sentence Reference: [3]
+Sentence Text: ""Jara Hamee's story is narrated from the points of view of Aldrea, Dak Hamee, and Esplin 9466, alternating in similar fashion to the 'Megamorphs' books.""
+Connection to HOP 1: The Hork-Bajir Chronicles is a companion book to the Animorphs series.
+
+Step 5 - HOP 3:
+Document: Animorphs
+Sentence Reference: [1]
+Sentence Text: ""It is told in first person, with all six main characters taking turns narrating the books through their own perspectives.""
+Connection to HOP 2: This confirms that Animorphs is told in first person.
+
+Step 6 - Answer Synthesis:
+Combining the information from both hops, we can conclude that the science fantasy young adult series told in first person with a set of companion books narrating the stories of enslaved worlds and alien species is Animorphs.
+
+",1.0
+5adbf0a255429947ff17385a,Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?,"since the locations of the laleli mosque and esma sultan mansion are different, they are not located in the same neighborhood.","{'title': ['Laleli Mosque', 'Esma Sultan Mansion'], 'sent_id': [0, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+What two entities are being compared? The Laleli Mosque and Esma Sultan Mansion.
+What property or dimension is being compared? The location or neighborhood.
+What comparison operator is used? The same.
+
+Step 2 - Document Selection:
+Relevant documents are Laleli Mosque, Esma Sultan Mansion, and any documents that mention their locations.
+
+Step 3 - HOP 1:
+Document: Laleli Mosque
+Sentence Reference: [0]
+Sentence Text: ""The Laleli Mosque (Turkish: ""Laleli Camii, or Tulip Mosque"" ) is an 18th-century Ottoman imperial mosque located in Laleli, Fatih, Istanbul, Turkey.""
+Information Extracted: The Laleli Mosque is located in Laleli, Fatih, Istanbul, Turkey.
+Relevance: This helps us understand the location of the Laleli Mosque.
+
+Step 4 - HOP 2:
+Document: Esma Sultan Mansion
+Sentence Reference: [0]
+Sentence Text: ""The Esma Sultan Mansion (Turkish: ""Esma Sultan Yalısı"" ), a historical yalı (English: waterside mansion ) located at Bosphorus in Ortaköy neighborhood of Istanbul, Turkey and named after its original owner Esma Sultan, is used today as a cultural center after being redeveloped.""
+Information Extracted: The Esma Sultan Mansion is located in Ortaköy neighborhood of Istanbul, Turkey.
+Connection to HOP 1: This location is different from the location of the Laleli Mosque.
+
+Step 5 - Answer Synthesis:
+Since the locations of the Laleli Mosque and Esma Sultan Mansion are different, they are not located in the same neighborhood.
+
+",1.0
+5a8e3ea95542995a26add48d,"The director of the romantic comedy ""Big Stone Gap"" is based in what New York city?","- combining the information from both hops, we can conclude that the director of the romantic comedy ""big stone gap"" is based in greenwich village, new york city.","{'title': ['Adriana Trigiani', 'Big Stone Gap (film)'], 'sent_id': [0, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+- The question is asking for the New York city where the director of the romantic comedy ""Big Stone Gap"" is based.
+- We need information about the director and their location.
+- Key entities or concepts mentioned are the director, the film ""Big Stone Gap"", and New York city.
+
+Step 2 - Document Selection:
+- Relevant documents are ""Adriana Trigiani"", ""Big Stone Gap (film)"", and possibly others that mention New York city.
+
+Step 3 - HOP 1:
+Document: Adriana Trigiani
+Sentence Reference: [0]
+Sentence Text: ""Adriana Trigiani is an Italian American best-selling author of sixteen books, television writer, film director, and entrepreneur based in Greenwich Village, New York City.""
+Information Extracted: Adriana Trigiani is based in Greenwich Village, New York City.
+Relevance: This helps because it establishes a connection between Adriana Trigiani and New York city.
+
+Step 4 - HOP 2:
+Document: Big Stone Gap (film)
+Sentence Reference: [0]
+Sentence Text: ""Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society.""
+Information Extracted: Adriana Trigiani is the director of the film ""Big Stone Gap"".
+Connection to HOP 1: This connects to HOP 1 because it confirms that Adriana Trigiani is indeed the director of the film.
+
+Step 5 - Answer Synthesis:
+- Combining the information from both hops, we can conclude that the director of the romantic comedy ""Big Stone Gap"" is based in Greenwich Village, New York City.
+
+",1.0
