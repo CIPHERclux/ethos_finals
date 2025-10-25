@@ -1,0 +1,136 @@
+id,question,answer,supporting_facts,reasoning,confidence
+5abe37295542993f32c2a090,Who is the current world record holder in high jump and uncle of Lorenzo Sotomayor Collazo? ,"Combining the information from both hops, we can conclude that Javier Sotomayor is the current world record holder in high jump and the uncle of Lorenzo Sotomayor Collazo.","{'title': ['Lorenzo Sotomayor', 'Javier Sotomayor'], 'sent_id': [1, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+The question is asking for the current world record holder in high jump and the uncle of Lorenzo Sotomayor Collazo. We need information about the high jump world record holder and the relationship between this person and Lorenzo Sotomayor.
+
+Step 2 - Document Selection:
+The relevant documents are Lorenzo Sotomayor and Javier Sotomayor, as they are both related to high jump and Lorenzo Sotomayor.
+
+Step 3 - HOP 1:
+Document: Lorenzo Sotomayor
+Sentence Reference: [1]
+Sentence Text: ""He is a nephew of the high jumper Javier Sotomayor.""
+Information Extracted: Javier Sotomayor is the uncle of Lorenzo Sotomayor.
+Relevance: This helps us identify the relationship between Javier Sotomayor and Lorenzo Sotomayor.
+
+Step 4 - HOP 2:
+Document: Javier Sotomayor
+Sentence Reference: [0]
+Sentence Text: ""Javier Sotomayor Sanabria (] ; born October 13, 1967) is a Cuban former track and field athlete, who specialized in the high jump and is the current world record holder.""
+Information Extracted: Javier Sotomayor is the current world record holder in high jump.
+Connection to HOP 1: Javier Sotomayor is the uncle of Lorenzo Sotomayor, and we are looking for the high jump world record holder.
+
+Step N - Answer Synthesis:
+Combining the information from both hops, we can conclude that Javier Sotomayor is the current world record holder in high jump and the uncle of Lorenzo Sotomayor Collazo.
+
+",1.0
+5adf54605542993a75d264c6,"What film director is from Great Britain, Miloš Forman or Alex Cox?","Based on the information, Alex Cox is the film director from Great Britain.","{'title': ['Miloš Forman', 'Alex Cox'], 'sent_id': [0, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+What two entities are being compared? 
+- Miloš Forman and Alex Cox
+What property or dimension is being compared (date, size, quantity, etc.)?
+- Nationality (Great Britain)
+What comparison operator is used (first, larger, more, etc.)?
+- Which one is from Great Britain
+
+Step 2 - Document Selection:
+- Find documents about Miloš Forman
+- Find documents about Alex Cox
+
+Step 3 - HOP 1:
+Document: Miloš Forman
+Sentence Reference: [0]
+Sentence Text: ""Jan Tomáš Forman (] ; born 18 February 1932), known as Miloš Forman (] ), is a Czech film director, screenwriter, actor, and professor, who until 1968 lived and worked primarily in Czechoslovakia.""
+Information Extracted: Miloš Forman is Czech
+Relevance: This helps to establish that Miloš Forman is not from Great Britain
+
+Step 4 - HOP 2:
+Document: Alex Cox
+Sentence Reference: [0]
+Sentence Text: ""Alexander ""Alex"" Cox (born 15 December 1954 in Bebington, Cheshire) is a British film director, screenwriter, nonfiction author, broadcaster and sometime actor, notable for his idiosyncratic style and approach to scripts.""
+Information Extracted: Alex Cox is British
+Connection to HOP 1: This establishes that Alex Cox is from Great Britain, unlike Miloš Forman
+
+Step 5 - Answer Synthesis:
+Based on the information, Alex Cox is the film director from Great Britain.
+
+",1.0
+5a7792435542995d831811e4,What Category 5 hurricane cause the Sqannanoa River to flood?,"combining the information from both hops, we can conclude that hurricane ivan was the category 5 hurricane that caused the swannanoa river to flood.","{'title': ['Swannanoa River', 'Hurricane Ivan'], 'sent_id': [5, 0]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+The question is asking for the Category 5 hurricane that caused the Swannanoa River to flood. We need information about the hurricane and its impact on the river.
+
+Step 2 - Document Selection:
+The relevant documents are ""Hurricane Ivan"" and ""Swannanoa River"".
+
+Step 3 - HOP 1:
+Document: Swannanoa River
+Sentence Reference: [5]
+Sentence Text: ""[In September 2004, massive rains from the remnants of Hurricane Frances and Hurricane Ivan caused the Swannanoa to flood, causing major damage to the Biltmore Village section of Asheville, and to the other communities that it flows through.]""
+Information Extracted: Hurricane Ivan caused the Swannanoa River to flood.
+Relevance: This helps because it directly mentions the hurricane that caused the flood.
+
+Step 4 - HOP 2:
+Document: Hurricane Ivan
+Sentence Reference: [0]
+Sentence Text: ""[Hurricane Ivan was a large, long-lived, Cape Verde-type hurricane that caused widespread damage in the Caribbean and United States.]""
+Information Extracted: Hurricane Ivan was a Category 5 hurricane.
+Connection to HOP 1: This confirms that Hurricane Ivan was a Category 5 hurricane that caused the Swannanoa River to flood.
+
+",1.0
+5a8a481a55429930ff3c0d5a,Navarone Garibaldi is the half-brother of a singer who has been married how many times?,"Combining the information from HOP 1 and HOP 2, we can conclude that Lisa Marie Presley, who is the half-sister of Navarone Garibaldi, has been married four times.","{'title': ['Navarone Garibaldi', 'Lisa Marie Presley'], 'sent_id': [2, 3]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+The question is asking for the number of times Lisa Marie Presley has been married. We need information about her marital history.
+
+Step 2 - Document Selection:
+The relevant documents are Navarone Garibaldi and Lisa Marie Presley.
+
+Step 3 - HOP 1:
+Document: Navarone Garibaldi
+Sentence Reference: [2]
+Sentence Text: ""He is the son of Marco Garibaldi and Priscilla Presley, and also half-brother of Lisa Marie Presley.""
+Information Extracted: Lisa Marie Presley is the half-sister of Navarone Garibaldi.
+Relevance: This helps because it establishes a family connection between Navarone Garibaldi and Lisa Marie Presley.
+
+Step 4 - HOP 2:
+Document: Lisa Marie Presley
+Sentence Reference: [3]
+Sentence Text: ""Presley has been married four times, including to singer Michael Jackson and actor Nicolas Cage, before marrying music producer Michael Lockwood, father of her twin girls.""
+Information Extracted: Lisa Marie Presley has been married four times.
+Connection to HOP 1: This connects because we established a family connection between Lisa Marie Presley and Navarone Garibaldi in HOP 1.
+
+Step 5 - Answer Synthesis:
+Combining the information from HOP 1 and HOP 2, we can conclude that Lisa Marie Presley, who is the half-sister of Navarone Garibaldi, has been married four times.
+
+",1.0
+5ac269a455429951e9e685aa,What was The original name of the Football club Samuel Johnson moved to in 1901? ,"Combining the information from both hops, we can conclude that the original name of the Football club Samuel Johnson moved to in 1901 was Newton Heath LYR Football Club.","{'title': ['Samuel Johnson (English footballer)', 'Manchester United F.C.'], 'sent_id': [2, 1]}","REASONING PROCESS:
+
+Step 1 - Question Analysis:
+The question is asking for the original name of the Football club Samuel Johnson moved to in 1901. We need information about Samuel Johnson's football career and the clubs he played for.
+
+Step 2 - Document Selection:
+The relevant documents are:
+- Samuel Johnson (English footballer)
+- Manchester United F.C.
+
+Step 3 - HOP 1:
+Document: Samuel Johnson (English footballer)
+Sentence Reference: [2]
+Sentence Text: ""Born in Manchester, he began his career with Tonge, but moved to Newton Heath in January 1901.""
+Information Extracted: Newton Heath
+Relevance: This helps because it tells us the club Samuel Johnson moved to in 1901.
+
+Step 4 - HOP 2:
+Document: Manchester United F.C.
+Sentence Reference: [1]
+Sentence Text: ""The club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.""
+Information Extracted: Newton Heath LYR Football Club
+Connection to HOP 1: This tells us the original name of the club Samuel Johnson moved to in 1901.
+
+Step 5 - Answer Synthesis:
+Combining the information from both hops, we can conclude that the original name of the Football club Samuel Johnson moved to in 1901 was Newton Heath LYR Football Club.
+
+",1.0
